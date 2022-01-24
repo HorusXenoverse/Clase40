@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyDwd-9AKUR8JGQMcAULJM_0tG7EUMguvz4",
+  authDomain: "juegodecarreras2-6f921.firebaseapp.com",
+  databaseURL: "https://juegodecarreras2-6f921-default-rtdb.firebaseio.com",
+  projectId: "juegodecarreras2-6f921",
+  storageBucket: "juegodecarreras2-6f921.appspot.com",
+  messagingSenderId: "182643545321",
+  appId: "1:182643545321:web:199b4c0bd693f070a94c78",
+  measurementId: "G-5CPY9BL5G1"
+};
+
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Player.js"></script>
+    <script src="Form.js"></script>
+    <script src="Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
